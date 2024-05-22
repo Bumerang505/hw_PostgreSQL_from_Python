@@ -1,6 +1,6 @@
 import psycopg2
 
-conn = psycopg2.connect(database='netology_db', user='postgres', password='fn56m#74cf')
+conn = psycopg2.connect(database='netology_db', user='postgres', password='postgres')
 
 
 def create_table_clients():
